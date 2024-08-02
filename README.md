@@ -15,7 +15,7 @@
 
 <h2>Getting Started</h2>
 <ol>
-  <li><strong>Clone the Repository:</strong> <code>git clone https://github.com/yourusername/your-repo.git</code></li>
+  <li><strong>Clone the Repository:</strong> <code>git clone https://github.com/Ganapati-nk/CHATBOT_LLAMA-3.1.git</code></li>
   <li><strong>Install Dependencies:</strong> <code>pip install -r requirements.txt</code></li>
   <li><strong>Set Up Streamlit Secrets:</strong> Configure your <code>secrets.toml</code> file with your API keys and other secrets.</li>
   <li><strong>Run the Application:</strong> <code>streamlit run app.py</code></li>
