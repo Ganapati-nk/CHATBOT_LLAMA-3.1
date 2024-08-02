@@ -17,10 +17,10 @@ st.set_page_config(
 working_dir = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(working_dir, ".env"))
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = st.secrets["api_keys"]["GROQ_API_KEY"]
 
 # save the api key to environment variable
-os.environ["GROQ_API_KEY"] = GROQ_API_KEY
+st.secrets["api_keys"]["GROQ_API_KEY"] = GROQ_API_KEY
 
 client = Groq()
 
