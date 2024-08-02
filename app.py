@@ -10,7 +10,6 @@ from groq import Groq
 # streamlit page configuration
 st.set_page_config(
     page_title="LLAMA 3.1. Chat",
-    page_icon="🦙",
     layout="centered"
 )
 
