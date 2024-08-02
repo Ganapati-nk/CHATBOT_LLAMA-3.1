@@ -17,10 +17,12 @@ st.set_page_config(
 working_dir = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(working_dir, ".env"))
 
+# Retrieve the API key from Streamlit secrets
 GROQ_API_KEY = st.secrets["api_keys"]["GROQ_API_KEY"]
 
-# save the api key to environment variable
-st.secrets["api_keys"]["GROQ_API_KEY"] = GROQ_API_KEY
+# Optionally set the environment variable if needed
+os.environ["GROQ_API_KEY"] = GROQ_API_KEY
+
 
 client = Groq()
 
