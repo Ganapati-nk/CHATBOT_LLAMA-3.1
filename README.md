@@ -10,7 +10,7 @@
 </ul>
 
 <h2>Live Demo</h2>
-<p>Check out the live chatbot at: <a href="https://chatbotllama-31-4upnnypc6xwvz9abhw7jdf.streamlit.app/" target="_blank">Chatbot LLM Ollama</a></p>
+<p>Check out the live chatbot at: <a href="https://chatbot-llama-3-1-2.onrender.com/" target="_blank">Chatbot LLM Ollama</a></p>
 
 
 <h2>Getting Started</h2>
